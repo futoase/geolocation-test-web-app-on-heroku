@@ -65,18 +65,20 @@ $(document).ready(function () {
             }
           }
 
-          var message = (
-            address.political + 
-            address.locality +
-            address.sublocality + 
+          var localAddress = $.map([
+            address.political,
+            address.locality,
+            address.sublocality,
             address.sublocality_2
-          );
+          ], function (v) {
+            if (v !== undefined) { return v; }
+          }).join("");
 
           $.post(POST_URL, {
             vote: "1",
             latitude: position.coords.latitude,
             longitude: position.coords.longitude,
-            address: message
+            address: localAddress
           }).done(function (data) {
 
             map = new GMaps({
@@ -93,7 +95,7 @@ $(document).ready(function () {
             getGeoLocationFromDatabase(map);
           });
 
-          $("#message").text(message);
+          $("#message").text(localAddress);
 
         }, "json");
       }, 
