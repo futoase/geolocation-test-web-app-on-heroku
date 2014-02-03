@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Geolocation-test-web-app-on-heroku by futoase</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Geolocation-test-web-app-on-heroku</h1>
+        <h2>Geolocation test web application.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/futoase/geolocation-test-web-app-on-heroku/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/futoase/geolocation-test-web-app-on-heroku/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/futoase/geolocation-test-web-app-on-heroku" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h2>
+<a name="geolocation-test-web-app-on-heroku" class="anchor" href="#geolocation-test-web-app-on-heroku"><span class="octicon octicon-link"></span></a>Geolocation test web app on heroku</h2>
+
+<p><img src="https://f.cloud.github.com/assets/72997/2062212/c37c08e8-8c80-11e3-814c-2f87ac0cad8f.png" alt="screen-shot"></p>
+
+<h2>
+<a name="how-to-setup" class="anchor" href="#how-to-setup"><span class="octicon octicon-link"></span></a>How to setup</h2>
+
+<pre><code>&gt; heroku create --buildpack https://github.com/heroku/heroku-buildpack-php
+&gt; git remote add heroku ${URL}
+&gt; heroku config:add TZ="Asia/Tokyo"
+&gt; heroku addons:add cleardb
+&gt; git push heroku master
+</code></pre>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Keiji Matsuzaki <a href="mailto:futoase@gmail.com">futoase@gmail.com</a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>LICENSE</h2>
+
+<p>MIT.</p>
+
+<p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://d2weczhvl823v0.cloudfront.net/futoase/geolocation-test-web-app-on-heroku/trend.png" alt="Bitdeli Badge"></a></p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
