@@ -22,3 +22,7 @@ LICENSE
 -------
 
 MIT.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/futoase/geolocation-test-web-app-on-heroku/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
