@@ -1,6 +1,8 @@
 Geolocation test web app on heroku
 ----------------------------------
 
+![screen-shot](https://f.cloud.github.com/assets/72997/2062212/c37c08e8-8c80-11e3-814c-2f87ac0cad8f.png)
+
 How to setup
 ------------
 
