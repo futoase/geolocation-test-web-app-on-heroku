@@ -9,7 +9,7 @@ How to setup
 ```
 > heroku create --buildpack https://github.com/heroku/heroku-buildpack-php
 > git remote add heroku ${URL}
-> heroku config:add TZ="Asia/Tokyo”
+> heroku config:add TZ="Asia/Tokyo"
 > heroku addons:add cleardb
 > git push heroku master
 ```
