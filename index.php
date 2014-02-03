@@ -19,6 +19,10 @@
   </nav>
 
   <div class="container">
+    <button id="geo-confirm" type="button" class="btn btn-primary">現在位置の情報を投稿する</button> 
+  </div>
+
+  <div class="container">
     <h1>住所</h1>
     <p id="message">取得中...</p>
   </div>

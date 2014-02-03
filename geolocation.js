@@ -116,5 +116,7 @@ $(document).ready(function () {
     }
   }
 
-  getGeoLocation();
+  $("#geo-confirm").click(function () {
+    getGeoLocation();
+  });
 });
